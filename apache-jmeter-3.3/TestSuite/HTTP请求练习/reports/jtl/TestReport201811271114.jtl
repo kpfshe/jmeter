@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="151" it="0" lt="151" ct="78" ts="1543288490251" s="true" lb="电话号码查询" rc="200" rm="OK" tn="HTTP请求 1-1" dt="text" by="659" sby="618" ng="1" na="1"/>
+<httpSample t="51" it="0" lt="51" ct="0" ts="1543288490411" s="true" lb="电话号码查询" rc="200" rm="OK" tn="HTTP请求 1-1" dt="text" by="369" sby="267" ng="1" na="1"/>
+<httpSample t="53" it="0" lt="53" ct="0" ts="1543288490463" s="true" lb="电话号码查询" rc="200" rm="OK" tn="HTTP请求 1-1" dt="text" by="369" sby="267" ng="1" na="1"/>
+<httpSample t="47" it="0" lt="47" ct="0" ts="1543288490524" s="true" lb="电话号码查询" rc="200" rm="OK" tn="HTTP请求 1-1" dt="text" by="369" sby="267" ng="1" na="1"/>
+<httpSample t="50" it="0" lt="50" ct="0" ts="1543288490572" s="true" lb="电话号码查询" rc="200" rm="OK" tn="HTTP请求 1-1" dt="text" by="369" sby="267" ng="1" na="1"/>
+<httpSample t="51" it="0" lt="51" ct="0" ts="1543288490623" s="true" lb="电话号码查询" rc="200" rm="OK" tn="HTTP请求 1-1" dt="text" by="369" sby="267" ng="1" na="1"/>
+<httpSample t="57" it="0" lt="56" ct="9" ts="1543288490675" s="true" lb="登录" rc="200" rm="OK" tn="HTTP请求 1-1" dt="text" by="1378" sby="641" ng="1" na="1">
+  <assertionResult>
+    <name>验证业务状态码（响应断言方式）</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>验证业务状态码（通过json方式断言）</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>业务断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>验证HTTP协议状态码</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="244" it="0" lt="244" ct="0" ts="1543288490780" s="true" lb="图片上传" rc="200" rm="HTTP/1.1 200" tn="HTTP请求 1-1" dt="text" by="894" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>验证业务状态码（通过json方式断言）</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>业务断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>验证HTTP协议状态码</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+
+</testResults>
